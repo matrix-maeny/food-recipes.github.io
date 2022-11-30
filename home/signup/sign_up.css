@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lucida, sans-serif;
+}
+
+body {
+    background-color: rgb(28, 31, 35);
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(52, 55, 63);
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+.center h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.center form {
+    margin: 0 40px;
+}
+
+form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding: 6px 0;
+    color: white;
+}
+
+form .txt_field {
+    margin: 31px 0;
+    border-bottom: 1px solid silver;
+    position: relative;
+}
+
+.txt_field label {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(201, 201, 201);
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+
+.txt_field span::before{
+    content: "";
+    height: 1px;
+    background-color: rgb(38, 224, 224);
+    position: absolute;
+    width: 0%;
+    left: 0;
+    top: 40px;
+    transition: all 0.5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+    top: -5px
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: rgb(50, 151, 48);
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.login_link{
+    margin: 20px;
+    text-align: center;
+}
+
+.login_link a{
+    color: rgb(211, 198, 54);
+}
+

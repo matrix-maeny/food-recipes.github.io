@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link rel="icon" href="../home/images/logo.png">
+    <link rel="stylesheet" href="./home_style.css">
+    <link rel="stylesheet" href="./slideshow/slider.css">
+    <link rel="stylesheet" href="./food_categories/food_categories.css">
+
+
+</head>
+
+<body>
+
+    <nav>
+        <label for="label" class="logo">Food Recipes</label>
+        <img id="menu-icon" onclick="menuClick()" src="./images/menu.png" alt="">
+        <ul id="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Create</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./login/login_form.html" target="_blank">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="slide-container">
+            <div class="slide s1">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide s2">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide s3">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide s4">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide s5">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide s6">
+                <div class="gradient-layer">
+                    <div class="content c1">
+                        <p class="title">Chocolate cake</p>
+                        <p class="tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat) is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dot-container">
+            <div class="dot d1" onclick="onDotClick(1)"></div>
+            <div class="dot d2" onclick="onDotClick(2)"></div>
+            <div class="dot d3" onclick="onDotClick(3)"></div>
+            <div class="dot d4" onclick="onDotClick(4)"></div>
+            <div class="dot d5" onclick="onDotClick(5)"></div>
+            <div class="dot d6" onclick="onDotClick(6)"></div>
+        </div>
+    </div>
+
+    <div class=".food-category">
+
+        <p class="food title">Best Tastes</p>
+        <div class="category one">
+            <div class="recipe one">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-one')" onmouseleave="onMouseLeave(this,'cat-one-rec-one')" >
+
+                    <div id="cat-one-rec-one" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe two">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-two')" onmouseleave="onMouseLeave(this,'cat-one-rec-two')" >
+
+                    <div id="cat-one-rec-two" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="recipe three">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-three')" onmouseleave="onMouseLeave(this,'cat-one-rec-three')" >
+
+                    <div id="cat-one-rec-three" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe four">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-four')" onmouseleave="onMouseLeave(this,'cat-one-rec-four')" >
+
+                    <div id="cat-one-rec-four" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe five">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-five')" onmouseleave="onMouseLeave(this,'cat-one-rec-five')" >
+
+                    <div id="cat-one-rec-five" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe six">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-six')" onmouseleave="onMouseLeave(this,'cat-one-rec-six')" >
+
+                    <div id="cat-one-rec-six" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe seven">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-seven')" onmouseleave="onMouseLeave(this,'cat-one-rec-seven')" >
+
+                    <div id="cat-one-rec-seven" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe eight">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-eight')" onmouseleave="onMouseLeave(this,'cat-one-rec-eight')" >
+
+                    <div id="cat-one-rec-eight" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe nine">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-nine')" onmouseleave="onMouseLeave(this,'cat-one-rec-nine')" >
+
+                    <div id="cat-one-rec-nine" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe ten">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-one-rec-ten')" onmouseleave="onMouseLeave(this,'cat-one-rec-ten')" >
+
+                    <div id="cat-one-rec-ten" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="food title">Crunchy Tastes</p>
+        <div class="category two">
+           
+            <div class="recipe two">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-two')" onmouseleave="onMouseLeave(this,'cat-two-rec-two')" >
+
+                    <div id="cat-two-rec-two" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe one">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-one')" onmouseleave="onMouseLeave(this,'cat-two-rec-one')" >
+
+                    <div id="cat-two-rec-one" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="recipe four">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-four')" onmouseleave="onMouseLeave(this,'cat-two-rec-four')" >
+
+                    <div id="cat-two-rec-four" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe three">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-three')" onmouseleave="onMouseLeave(this,'cat-two-rec-three')" >
+
+                    <div id="cat-two-rec-three" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe five">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-five')" onmouseleave="onMouseLeave(this,'cat-two-rec-five')" >
+
+                    <div id="cat-two-rec-five" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe six">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-six')" onmouseleave="onMouseLeave(this,'cat-two-rec-six')" >
+
+                    <div id="cat-two-rec-six" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe seven">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-seven')" onmouseleave="onMouseLeave(this,'cat-two-rec-seven')" >
+
+                    <div id="cat-two-rec-seven" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe eight">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-eight')" onmouseleave="onMouseLeave(this,'cat-two-rec-eight')" >
+
+                    <div id="cat-two-rec-eight" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe nine">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-nine')" onmouseleave="onMouseLeave(this,'cat-two-rec-nine')" >
+
+                    <div id="cat-two-rec-nine" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe ten">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-two-rec-ten')" onmouseleave="onMouseLeave(this,'cat-two-rec-ten')" >
+
+                    <div id="cat-two-rec-ten" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="food title">Spicy Tastes</p>
+        <div class="category three">
+            <div class="recipe one">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-one')" onmouseleave="onMouseLeave(this,'cat-three-rec-one')" >
+
+                    <div id="cat-three-rec-one" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe two">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-two')" onmouseleave="onMouseLeave(this,'cat-three-rec-two')" >
+
+                    <div id="cat-three-rec-two" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="recipe three">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-three')" onmouseleave="onMouseLeave(this,'cat-three-rec-three')" >
+
+                    <div id="cat-three-rec-three" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe four">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-four')" onmouseleave="onMouseLeave(this,'cat-three-rec-four')" >
+
+                    <div id="cat-three-rec-four" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe five">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-five')" onmouseleave="onMouseLeave(this,'cat-three-rec-five')" >
+
+                    <div id="cat-three-rec-five" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe six">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-six')" onmouseleave="onMouseLeave(this,'cat-three-rec-six')" >
+
+                    <div id="cat-three-rec-six" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe seven">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-seven')" onmouseleave="onMouseLeave(this,'cat-three-rec-seven')" >
+
+                    <div id="cat-three-rec-seven" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe eight">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-eight')" onmouseleave="onMouseLeave(this,'cat-three-rec-eight')" >
+
+                    <div id="cat-three-rec-eight" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe nine">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-nine')" onmouseleave="onMouseLeave(this,'cat-three-rec-nine')" >
+
+                    <div id="cat-three-rec-nine" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="recipe ten">
+                <div class="recipe-layer" onmouseenter="onCardHover(this,'cat-three-rec-ten')" onmouseleave="onMouseLeave(this,'cat-three-rec-ten')" >
+
+                    <div id="cat-three-rec-ten" class="recipe-content">
+                        <h2 class="recipe-title">Cholocate cake</h2>
+                        <p class="recipe-tagline">Chocolate cake or chocolate gâteau (from French: gâteau au chocolat)
+                            is a
+                            cake flavored with melted chocolate, cocoa powder, or both....</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+
+<script>
+    var slideCounter = 2;
+    document.querySelector('.dot.d' + 1).classList.add('highlight')
+
+
+    function onCardHover(element,x) {
+            console.log("hovered")
+            element.classList.add('layer');
+            // document.querySelector(".category."+x+"  .recipe."+x+" .recipe-content").classList.add('show')
+            document.getElementById(x).classList.add('show')
+        }
+
+        function onMouseLeave(element,x) {
+            element.classList.remove('layer');
+            // document.querySelector(".category."+x+"  .recipe."+x+" .recipe-content").classList.remove('show')
+            document.getElementById(x).classList.remove('show')
+
+        }
+
+    function menuClick() {
+        document.querySelector('nav ul').classList.toggle('show')
+    }
+
+    function onDotClick(classNumber) {
+        clearSlides()
+        for (var x = 1; x <= 6; x++) {
+            console.log("cli " + x);
+            document.querySelector('.dot.d' + x).classList.remove('highlight')
+        }
+        document.querySelector('.dot.d' + classNumber).classList.add('highlight')
+        document.querySelector('.slide.s' + classNumber).classList.add("show")
+
+
+        console.log("clicked " + classNumber);
+        
+    }
+
+    function clearSlides() {
+        for (var x = 1; x <= 6; x++) {
+            document.querySelector('.slide.s' + x).classList.remove('show')
+        }
+    }
+    // clearSlides()
+    document.querySelector('.slide.s' + 1).classList.add("show")
+
+    setInterval(() => {
+        onDotClick(slideCounter)
+        if(slideCounter == 6){
+            slideCounter = 1;
+        }else slideCounter++;
+        console.log("called "+slideCounter);
+        
+        }, 3500);
+
+
+</script>
+
+</html>

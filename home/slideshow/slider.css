@@ -1,0 +1,143 @@
+div.slideshow-container {
+    display: table;
+    width: 100%;
+}
+
+div.slide-container {
+    height: 35vw;
+    width: 100%;
+    background-color: black;
+    margin-top: 5vw;
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+div.slideshow-container .slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+div.slide-container {
+    width: 100%;
+}
+
+.slide {
+    transition: all 0.9s;
+    overflow: hidden;
+}
+
+
+.slide.s1 {
+    background: url(./images/slide1.jpg);
+}
+
+.slide.s2 {
+    background: url(./images/slide2.jpg);
+}
+
+.slide.s3 {
+    background: url(./images/slide3.jpg);
+}
+
+.slide.s4 {
+    background: url(./images/slide4.jpg);
+}
+
+.slide.s5 {
+    background: url(./images/slide5.jpg);
+}
+
+.slide.s6 {
+    background: url(./images/slide6.jpg);
+}
+
+div.dot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: -4vw;
+    margin-bottom: 2.3vw;
+}
+
+.dot {
+    height: 1vw;
+    width: 1vw;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(176, 183, 193);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* .dot.d1 {
+    background-color: white;
+} */
+
+.dot.d1.highlight,
+.dot.d2.highlight,
+.dot.d3.highlight,
+.dot.d4.highlight,
+.dot.d5.highlight,
+.dot.d6.highlight {
+    background-color: white;
+}
+
+.gradient-layer {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgb(23, 23, 25), rgba(37, 39, 47, 0.7), rgba(66, 66, 78, 0));
+}
+
+.tagline {
+    font-size: 1.2vw;
+    margin: 1vw 1vw;
+}
+
+.title {
+    font-size: 3vw;
+}
+
+div.content {
+    width: 70%;
+    height: calc(100% - 50px);
+    padding: 18% 8%;
+    text-align: center start;
+
+}
+
+.slide.s1.show,
+.slide.s2.show,
+.slide.s3.show,
+.slide.s4.show,
+.slide.s5.show,
+.slide.s6.show {
+    flex: 1 0 100%;
+
+}
+/* .slide.s1.open,
+.slide.s2.open,
+.slide.s3.open,
+.slide.s4.open,
+.slide.s5.open,
+.slide.s6.open {
+    display: none;
+} */
+
+.show-slide {
+    display: block;
+}
+
+@media (max-width:720px) {
+
+    div.dot-container {
+        margin-top: -5vw;
+    }
+
+}
